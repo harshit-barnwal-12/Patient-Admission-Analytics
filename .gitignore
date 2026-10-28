@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Local healthcare dataset files (do not commit patient-level records)
+data/*.csv
+!data/README.md
+
+# Generated exports / analysis outputs
+outputs/*
+!outputs/.gitkeep
+
+# Streamlit
+.streamlit/secrets.toml
