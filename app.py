@@ -33,6 +33,19 @@ st.markdown("""
     div[data-testid="stMetric"] {background: #f6f9fc; padding: 14px 16px; border-radius: 14px; border: 1px solid #e5edf5;}
     div[data-testid="stMetric"] label {color: #334e68;}
     .section-head {font-size: 1.25rem; font-weight: 700; margin: .4rem 0 .8rem 0;}
+    
+    [data-testid="stMetricValue"] {
+      color: #1f2937 !important;
+    }
+
+    [data-testid="stMetricLabel"] {
+      color: #334155 !important;
+    }
+
+    [data-testid="stMetricDelta"] {
+      color: #15803d !important;
+    }
+
 </style>
 """, unsafe_allow_html=True)
 
